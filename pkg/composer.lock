@@ -670,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmunk42/yii2-gii.git",
-                "reference": "7fca00c8dd20bf8c3c9579a4a90d9e0dbadc911b"
+                "reference": "7e622f77667cb577b6e9a78b3b47d97e2f0d7a44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/7fca00c8dd20bf8c3c9579a4a90d9e0dbadc911b",
-                "reference": "7fca00c8dd20bf8c3c9579a4a90d9e0dbadc911b",
+                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/7e622f77667cb577b6e9a78b3b47d97e2f0d7a44",
+                "reference": "7e622f77667cb577b6e9a78b3b47d97e2f0d7a44",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2-gii"
             },
-            "time": "2017-09-15T18:35:40+00:00"
+            "time": "2017-09-15T19:58:16+00:00"
         }
     ],
     "aliases": [
