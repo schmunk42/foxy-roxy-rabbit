@@ -2,6 +2,7 @@ version: '3'
 services:
   phd:
     build: .
+    working_dir: /app/pkg
     environment:
       - GITHUB_API_TOKEN
       - YII_ENV=dev
