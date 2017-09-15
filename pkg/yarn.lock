@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@composer-asset/almasaeed2010--adminlte@file:./vendor/foxy/composer-asset/almasaeed2010/adminlte":
+"@composer-asset/almasaeed2010--adminlte@file:vendor/foxy/composer-asset/almasaeed2010/adminlte":
   version "2.3.8"
 
 "@composer-asset/yiisoft--yii2-dev@file:./vendor/foxy/composer-asset/yiisoft/yii2-dev":

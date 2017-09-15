@@ -1,9 +1,6 @@
-FROM dmstr/php-yii2:7.2-fpm-5.0-alpha2-alpine-nginx
+FROM dmstr/php-yii2:7.2-fpm-5.0-alpha3-alpine-nginx
 
 WORKDIR /app
-
-RUN apk add --update git nodejs openssh \
- && npm install -g yarn
 
 COPY ./src /app/src
 COPY ./web /app/web
