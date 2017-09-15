@@ -1,0 +1,16 @@
+version: '3'
+services:
+  phd:
+    build: .
+    environment:
+      - GITHUB_API_TOKEN
+      - YII_ENV=dev
+      - YII_DEBUG=1
+    ports:
+      - 21000:80
+    volumes:
+      - ./pkg:/app/pkg
+      - ./src:/app/src
+      - ./web:/app/web
+      #- ./runtime:/app/runtime
+      - ~/.composer-docker/cache:/root/.composer/cache
