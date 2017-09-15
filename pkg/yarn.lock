@@ -8,9 +8,9 @@
 "@composer-asset/yiisoft--yii2-dev@file:./vendor/foxy/composer-asset/yiisoft/yii2-dev":
   version dev-feature/2.1-no-assets
 
-bootstrap@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71"
+bootstrap@^4.0.0-beta:
+  version "4.0.0-beta"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-beta.tgz#dc5928175d2e71310bc668cf9e05a907211b72a6"
 
 jquery@>=1.7, jquery@^3.2.1:
   version "3.2.1"
