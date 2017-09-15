@@ -11,6 +11,6 @@ services:
     volumes:
       - ./pkg:/app/pkg
       - ./src:/app/src
-      - ./web:/app/web
+      #- ./web:/app/web
       #- ./runtime:/app/runtime
       - ~/.composer-docker/cache:/root/.composer/cache

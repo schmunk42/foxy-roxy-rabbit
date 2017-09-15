@@ -10,7 +10,7 @@ RUN apk add --update git nodejs openssh \
 COPY ./src /app/src
 COPY ./web /app/web
 
-RUN mkdir /app/runtime \
- && chmod 777 /app/runtime
+RUN mkdir /app/runtime /app/web/assets \
+ && chmod 777 /app/runtime /app/web/assets
 
 ENV PATH=/app/pkg/vendor/bin:${PATH}

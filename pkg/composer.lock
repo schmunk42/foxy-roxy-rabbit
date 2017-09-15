@@ -508,12 +508,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmunk42/yii2.git",
-                "reference": "4fd88eb39e89c2956588ee5983c93e07035b136a"
+                "reference": "9ee077c9048ffb786e3e550438c62eebc4bce9a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmunk42/yii2/zipball/4fd88eb39e89c2956588ee5983c93e07035b136a",
-                "reference": "4fd88eb39e89c2956588ee5983c93e07035b136a",
+                "url": "https://api.github.com/repos/schmunk42/yii2/zipball/9ee077c9048ffb786e3e550438c62eebc4bce9a3",
+                "reference": "9ee077c9048ffb786e3e550438c62eebc4bce9a3",
                 "shasum": ""
             },
             "require": {
@@ -622,7 +622,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2"
             },
-            "time": "2017-09-14T20:51:21+00:00"
+            "time": "2017-09-15T18:37:22+00:00"
         }
     ],
     "packages-dev": [
@@ -670,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmunk42/yii2-gii.git",
-                "reference": "9e25c6816e3366b4b333f8e5130da377b6f64018"
+                "reference": "7fca00c8dd20bf8c3c9579a4a90d9e0dbadc911b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/9e25c6816e3366b4b333f8e5130da377b6f64018",
-                "reference": "9e25c6816e3366b4b333f8e5130da377b6f64018",
+                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/7fca00c8dd20bf8c3c9579a4a90d9e0dbadc911b",
+                "reference": "7fca00c8dd20bf8c3c9579a4a90d9e0dbadc911b",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2-gii"
             },
-            "time": "2017-09-14T21:51:27+00:00"
+            "time": "2017-09-15T18:35:40+00:00"
         }
     ],
     "aliases": [
