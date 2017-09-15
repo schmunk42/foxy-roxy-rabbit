@@ -1,0 +1,52 @@
+{
+    "minimum-stability": "stable",
+    "config": {
+        "foxy": {
+            "manager": "yarn",
+            "enable-packages": {
+                "*": true
+            }
+        },
+        "preferred-install": {
+            "dmstr/*": "source",
+            "hrzg/*": "source",
+            "schmunk42/*": "source",
+            "dektrium/yii2-rbac": "source",
+            "*": "auto"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "../src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "../tests"
+        }
+    },
+    "require": {
+        "foxy/foxy": "@dev",
+        "almasaeed2010/adminlte": "@stable",
+        "yiisoft/yii2-dev": "dev-feature/2.1-no-assets as 2.1.0",
+        "yiisoft/yii2-bootstrap": "dev-feature/2.1-no-assets as 2.1.0",
+        "codemix/yii2-streamlog": "^1.2"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "dev-feature/2.1-no-assets"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/schmunk42/yii2.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/schmunk42/yii2-gii.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/schmunk42/yii2-bootstrap.git"
+        }
+    ]
+}
