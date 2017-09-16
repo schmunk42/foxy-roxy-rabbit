@@ -11,6 +11,7 @@ Try out the installation and setup steps on [Play with Docker](http://labs.play-
 Get the source
 
     git clone https://github.com/schmunk42/foxy-roxy-rabbit.git
+    cd foxy-roxy-rabbit
 
 Install packages
 
