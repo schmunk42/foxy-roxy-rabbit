@@ -1,6 +1,6 @@
 # foxy-roxy-rabbit
 
-:rotating_light: Draft - work in progress...
+:rotating_light: **Draft - work in progress...** :rotating_light: 
 
 A dockerized application template for Yii 2.1 Framework
 
