@@ -34,3 +34,5 @@ Execute a shell in a running container
 Create controller
 
     $ yii gii/controller --appconfig=/app/src/config/main.php --controllerClass="app\controllers\SiteController"
+
+Show Gii web-inteface by running the route `/?r=gii`.
