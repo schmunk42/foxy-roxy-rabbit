@@ -4,7 +4,15 @@
 
 A dockerized application template for Yii 2.1 Framework
 
+Try out the installation and setup steps on [Play with Docker](http://labs.play-with-docker.com/)
+
 ## Installation
+
+Get the source
+
+    https://github.com/schmunk42/foxy-roxy-rabbit.git
+
+Install packages
 
     docker-compose run --rm phd composer install
 
