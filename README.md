@@ -25,11 +25,11 @@ Start container
 
 Open `http://docker.local:21000` in your browser.
 
-Enter running container
+## Usage
+
+Execute a shell in a running container
 
     docker-compose exec phd sh
-
-## Usage
 
 Create controller
 
