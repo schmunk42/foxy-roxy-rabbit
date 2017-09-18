@@ -403,12 +403,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmunk42/yii2-bootstrap.git",
-                "reference": "77acc00e61319ae35f045b0f4255ea78588cc54f"
+                "reference": "c42554b5d3d17558fe795d6c247ee8db33f1da0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmunk42/yii2-bootstrap/zipball/77acc00e61319ae35f045b0f4255ea78588cc54f",
-                "reference": "77acc00e61319ae35f045b0f4255ea78588cc54f",
+                "url": "https://api.github.com/repos/schmunk42/yii2-bootstrap/zipball/c42554b5d3d17558fe795d6c247ee8db33f1da0f",
+                "reference": "c42554b5d3d17558fe795d6c247ee8db33f1da0f",
                 "shasum": ""
             },
             "require": {
@@ -450,7 +450,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2-bootstrap"
             },
-            "time": "2017-09-18T08:02:07+00:00"
+            "time": "2017-09-18T09:27:21+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -670,12 +670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmunk42/yii2-gii.git",
-                "reference": "0dd86bdbc7e17485fb259541fa847922d332fa3b"
+                "reference": "98a556573cb6f548d00482a3033c3c979f53c61b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/0dd86bdbc7e17485fb259541fa847922d332fa3b",
-                "reference": "0dd86bdbc7e17485fb259541fa847922d332fa3b",
+                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/98a556573cb6f548d00482a3033c3c979f53c61b",
+                "reference": "98a556573cb6f548d00482a3033c3c979f53c61b",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2-gii"
             },
-            "time": "2017-09-18T08:18:56+00:00"
+            "time": "2017-09-18T09:26:53+00:00"
         }
     ],
     "aliases": [

@@ -1,7 +1,9 @@
 {
     "dependencies": {
         "@composer-asset/almasaeed2010--adminlte": "file:vendor/foxy/composer-asset/almasaeed2010/adminlte",
+        "@composer-asset/yiisoft--yii2-bootstrap": "file:./vendor/foxy/composer-asset/yiisoft/yii2-bootstrap",
         "@composer-asset/yiisoft--yii2-dev": "file:./vendor/foxy/composer-asset/yiisoft/yii2-dev",
+        "@composer-asset/yiisoft--yii2-gii": "file:./vendor/foxy/composer-asset/yiisoft/yii2-gii",
         "jquery": "^3.2.1"
     }
 }
