@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "50df6a8a250dd17a2568107fd672b54e",
+    "content-hash": "9418ef9833e2b4afdb7acef9533ae1fb",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -198,12 +198,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/foxypkg/foxy.git",
-                "reference": "5edb792b46164736fba262f82c9101e8918146e1"
+                "reference": "df79f14b8c0e99bd5612669bd7a5b0de0e3f13b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foxypkg/foxy/zipball/5edb792b46164736fba262f82c9101e8918146e1",
-                "reference": "5edb792b46164736fba262f82c9101e8918146e1",
+                "url": "https://api.github.com/repos/foxypkg/foxy/zipball/df79f14b8c0e99bd5612669bd7a5b0de0e3f13b4",
+                "reference": "df79f14b8c0e99bd5612669bd7a5b0de0e3f13b4",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +250,7 @@
                 "package",
                 "yarn"
             ],
-            "time": "2017-09-13T12:29:43+00:00"
+            "time": "2017-09-18T08:49:30+00:00"
         },
         {
             "name": "psr/http-message",
@@ -403,12 +403,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmunk42/yii2-bootstrap.git",
-                "reference": "52a71fc6b0e76a5b1630e7827f60a67ca15eec97"
+                "reference": "77acc00e61319ae35f045b0f4255ea78588cc54f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmunk42/yii2-bootstrap/zipball/52a71fc6b0e76a5b1630e7827f60a67ca15eec97",
-                "reference": "52a71fc6b0e76a5b1630e7827f60a67ca15eec97",
+                "url": "https://api.github.com/repos/schmunk42/yii2-bootstrap/zipball/77acc00e61319ae35f045b0f4255ea78588cc54f",
+                "reference": "77acc00e61319ae35f045b0f4255ea78588cc54f",
                 "shasum": ""
             },
             "require": {
@@ -450,7 +450,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2-bootstrap"
             },
-            "time": "2017-09-14T21:49:12+00:00"
+            "time": "2017-09-18T08:02:07+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -666,16 +666,16 @@
         },
         {
             "name": "yiisoft/yii2-gii",
-            "version": "dev-feature/2.1-no-assets",
+            "version": "dev-feature/2.1-assets",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmunk42/yii2-gii.git",
-                "reference": "7e622f77667cb577b6e9a78b3b47d97e2f0d7a44"
+                "reference": "0dd86bdbc7e17485fb259541fa847922d332fa3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/7e622f77667cb577b6e9a78b3b47d97e2f0d7a44",
-                "reference": "7e622f77667cb577b6e9a78b3b47d97e2f0d7a44",
+                "url": "https://api.github.com/repos/schmunk42/yii2-gii/zipball/0dd86bdbc7e17485fb259541fa847922d332fa3b",
+                "reference": "0dd86bdbc7e17485fb259541fa847922d332fa3b",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2-gii"
             },
-            "time": "2017-09-15T19:58:16+00:00"
+            "time": "2017-09-18T08:18:56+00:00"
         }
     ],
     "aliases": [

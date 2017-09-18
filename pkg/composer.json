@@ -33,7 +33,7 @@
         "codemix/yii2-streamlog": "^1.2"
     },
     "require-dev": {
-        "yiisoft/yii2-gii": "dev-feature/2.1-no-assets"
+        "yiisoft/yii2-gii": "dev-feature/2.1-assets"
     },
     "repositories": [
         {
