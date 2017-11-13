@@ -1,4 +1,5 @@
-pkg/node_modules
-pkg/vendor
 runtime
-web/assets
+node_modules
+vendor
+
+public/assets
