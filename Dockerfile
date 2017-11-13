@@ -1,11 +1,18 @@
-FROM dmstr/php-yii2:7.2-fpm-5.0-alpha3-alpine-nginx
+FROM schmunk42/dev.yiiframework.php:7.1.9-apache
+
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
+ && apt-get update \
+ && apt-get install -y nodejs \
+ && npm install -g yarn
 
 WORKDIR /app
 
 COPY ./src /app/src
-COPY ./web /app/web
+COPY ./public /app/public
 
-RUN mkdir -p /app/runtime /app/web/assets \
- && chmod 777 /app/runtime /app/web/assets
+RUN mkdir -p /app/runtime /app/public/assets \
+ && chmod 777 /app/runtime /app/public/assets
 
-ENV PATH=/app/pkg/vendor/bin:${PATH}
+ENV PATH=/app/vendor/bin:${PATH}
+
+RUN rm /var/www/html && ln -s /app/public /var/www/html

@@ -12,11 +12,11 @@ use yii\gii\Module;
 
 return [
     'id' => 'app',
-    'basePath' => realpath(__DIR__.'/..'),
-    'runtimePath' => realpath(__DIR__.'/../../runtime'),
+    'basePath' => realpath(__DIR__.'/../src'),
+    'runtimePath' => realpath(__DIR__.'/../runtime'),
     'aliases' => [
-        '@bower' => '/app/pkg/node_modules',
-        '@yii/gii' => '/app/pkg/vendor/yiisoft/yii2-gii',
+        '@bower' => '/app/node_modules',
+        '@yii/gii' => '/app/vendor/yiisoft/yii2-gii',
     ],
     'bootstrap' => [
     ],

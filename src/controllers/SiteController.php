@@ -8,5 +8,4 @@ class SiteController extends \yii\web\Controller
     {
         return $this->render('index');
     }
-
 }
