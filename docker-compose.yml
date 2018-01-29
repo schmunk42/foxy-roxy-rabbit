@@ -2,7 +2,7 @@ version: '3'
 services:
   phd:
     build: .
-    working_dir: /app/pkg
+    working_dir: /app
     environment:
       - GITHUB_API_TOKEN
       - YII_ENV=dev
@@ -10,8 +10,13 @@ services:
     ports:
       - 21000:80
     volumes:
-      - ./pkg:/app/pkg
-      - ./src:/app/src
-      #- ./web:/app/web
+      - ./config:/app/config:cached
+      - ./src:/app/src:cached
+      - ./public:/app/public:delegated
+      - ./node_modules:/app/node_modules:delegated
+      - ./vendor:/app/vendor:delegated
+      - ./composer.json:/app/composer.json:cached
+      - ./composer.lock:/app/composer.lock:cached
+      - ./packages.json:/app/packages.json:cached
       #- ./runtime:/app/runtime
       - ~/.composer-docker/cache:/root/.composer/cache
