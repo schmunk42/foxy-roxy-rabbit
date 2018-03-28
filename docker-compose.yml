@@ -1,6 +1,6 @@
 version: '3'
 services:
-  phd:
+  php:
     build: .
     working_dir: /app
     environment:
@@ -19,4 +19,4 @@ services:
       - ./composer.lock:/app/composer.lock:cached
       - ./packages.json:/app/packages.json:cached
       #- ./runtime:/app/runtime
-      - ~/.composer-docker/cache:/root/.composer/cache
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated

@@ -1,5 +1,5 @@
 {
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "config": {
         "foxy": {
             "enabled": false,
@@ -27,27 +27,8 @@
         }
     },
     "require": {
+        "foxy/foxy": "@dev",
         "yiisoft/yii2-dev": "2.1.x-dev",
-        "codemix/yii2-streamlog": "^1.2",
-        "yiisoft/yii2-jquery": "dev-feature/nam",
-        "wikimedia/composer-merge-plugin": "~1.4"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/schmunk42/yii2-jquery.git"
-        },
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
-    "extra": {
-        "merge-plugin": {
-            "include": [
-                "vendor/*/*/composer.assets.json"
-            ]
-        }
+        "codemix/yii2-streamlog": "^1.2"
     }
-
 }

@@ -3,3 +3,7 @@ node_modules
 vendor
 
 public/assets
+
+docker-compose.override.yml
+
+.idea

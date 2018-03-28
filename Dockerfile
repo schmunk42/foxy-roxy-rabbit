@@ -1,4 +1,4 @@
-FROM dmstr/php-yii2:7.2-fpm-5.0-alpha3-alpine-nginx
+FROM yiisoftware/yii2-php:7.2-apache
 
 WORKDIR /app
 
